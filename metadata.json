@@ -1,0 +1,6 @@
+{
+  "name": "Companion",
+  "description": "An intelligent AI-powered productivity companion that connects with Google Calendar, plans execution routes using Gemini, schedules tasks in free slots, and reschedules them dynamically based on schedule changes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

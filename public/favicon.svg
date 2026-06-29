@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    
+    <!-- Ring 1 Gradient -->
+    <linearGradient id="ringGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.35" />
+    </linearGradient>
+
+    <!-- Ring 2 Gradient -->
+    <linearGradient id="ringGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbcfe8" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#c7d2fe" stop-opacity="0.45" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Super-Glow Filter -->
+    <filter id="superGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Base (Superellipse / Smooth Squircle) -->
+  <rect x="32" y="32" width="448" height="448" rx="128" fill="url(#bgGrad)" />
+
+  <!-- Ambient Glow from behind the core logo -->
+  <circle cx="256" cy="256" r="110" fill="#ffffff" opacity="0.15" filter="url(#superGlow)" />
+
+  <!-- The Interlocking "Infinity Sparkle" / Dual Loop Connection Symbol -->
+  <!-- Loop 1 (AI) -->
+  <path d="M 200 256 C 200 190, 312 190, 312 256 C 312 322, 200 322, 200 256 Z" 
+        fill="none" 
+        stroke="url(#ringGrad1)" 
+        stroke-width="28" 
+        stroke-linecap="round"
+        transform="rotate(-45 256 256)" />
+
+  <!-- Loop 2 (Human Companion) -->
+  <path d="M 200 256 C 200 190, 312 190, 312 256 C 312 322, 200 322, 200 256 Z" 
+        fill="none" 
+        stroke="url(#ringGrad2)" 
+        stroke-width="28" 
+        stroke-linecap="round"
+        transform="rotate(45 256 256)" />
+
+  <!-- Central Star / Proactive Sparkle -->
+  <path d="M 256 186 L 268 238 L 320 250 L 268 262 L 256 314 L 244 262 L 192 250 L 244 238 Z" 
+        fill="#ffffff" 
+        filter="url(#glow)" />
+        
+  <!-- Small Accent Sparkle (Top-Right) -->
+  <path d="M 345 155 L 351 175 L 371 181 L 351 187 L 345 207 L 339 187 L 319 181 L 339 175 Z" 
+        fill="#ffe4e6" 
+        opacity="0.9" />
+
+  <!-- Small Accent Sparkle (Bottom-Left) -->
+  <path d="M 167 333 L 171 348 L 186 352 L 171 356 L 167 371 L 163 356 L 148 352 L 163 348 Z" 
+        fill="#e0e7ff" 
+        opacity="0.8" />
+</svg>
