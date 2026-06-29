@@ -68,10 +68,16 @@ Companion doesn't stop at planning your tasks—it actively supports you while y
 When it's time to begin a scheduled task, Companion displays a "Start Task" prompt. Once the user starts the task, a "Need Help?" button becomes available, providing instant access to the AI Assistant.
 
 The AI offers real-time, context-aware guidance based on the selected task, helping users overcome obstacles and stay productive.
+
+## App View
 <img width="1918" height="847" alt="image" src="https://github.com/user-attachments/assets/ccc56c8f-676c-4a5f-a86a-75b0d6af50cf" />
 <img width="1918" height="876" alt="image" src="https://github.com/user-attachments/assets/c00129b9-3886-4242-a689-f1df91612a43" />
 <img width="1918" height="863" alt="image" src="https://github.com/user-attachments/assets/52138f2b-24e6-493e-bebc-4a7718584bbe" />
 <img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/488ee095-037b-4e47-9a7f-7ef6f3878e64" />
+<img width="1918" height="865" alt="image" src="https://github.com/user-attachments/assets/c572bd13-8a82-4f14-9def-924d1142309f" />
+<img width="1918" height="862" alt="image" src="https://github.com/user-attachments/assets/df2038ed-5c43-4264-8e56-c8d6f292d753" />
+
+
 
 
 
