@@ -66,12 +66,11 @@ Busy professionals, freelancers, and students struggle to dynamically organize t
 Companion includes a built-in server-side **Gemini AI Assistant** integration to help you manage your schedule and generate tailored productivity solutions:
 
 ### How it works:
-* **Conversational Scheduler**: Click the **"Ask AI Assistant"** tab to talk to Gemini. You can input commands like:
-  * *"I need help organizing my study tasks because I have an exam tomorrow."*
-  * *"Generate a perfect workflow for a freelance developer who works in 2-hour sprints."*
-  * *"Help! My schedule is too tight. How should I prioritize?"*
-* **Dynamic Workflows**: Gemini analyzes your current workload, task priorities, and workspace context, returning real-time recommendations, subtask breakdowns, and custom productivity techniques.
-* **Daily Reflection Companion**: Every evening, click on **"Evening Reflection"**. Gemini will review your completed tasks/habits and generate a personal summary, highlighting streaks and areas of improvement with actionable coaching insights.
+Companion doesn't stop at planning your tasks—it actively supports you while you're working.
+
+When it's time to begin a scheduled task, Companion displays a "Start Task" prompt. Once the user starts the task, a "Need Help?" button becomes available, providing instant access to the AI Assistant.
+
+The AI offers real-time, context-aware guidance based on the selected task, helping users overcome obstacles and stay productive.
 
 ---
 
