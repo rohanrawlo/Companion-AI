@@ -69,7 +69,8 @@ The AI offers real-time, context-aware guidance based on the selected task, help
 <img width="1918" height="847" alt="image" src="https://github.com/user-attachments/assets/ccc56c8f-676c-4a5f-a86a-75b0d6af50cf" />
 <img width="1918" height="876" alt="image" src="https://github.com/user-attachments/assets/c00129b9-3886-4242-a689-f1df91612a43" />
 <img width="1918" height="863" alt="image" src="https://github.com/user-attachments/assets/52138f2b-24e6-493e-bebc-4a7718584bbe" />
-<img width="827" height="855" alt="image" src="https://github.com/user-attachments/assets/e443fb7f-4f4c-4f68-b53e-e9e7a8b7cb1f" />
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/488ee095-037b-4e47-9a7f-7ef6f3878e64" />
+
 
 
 
