@@ -6,13 +6,13 @@ Companion is an intelligent, context-aware daily planner designed to act as your
 
 ## 📋 Table of Contents
 
-2. [Solution Overview](#-solution-overview)
-3. [Key Features](#-key-features)
-4. [🤖 AI Assistant & Help Generator](#-ai-assistant--help-generator)
-5. [📱 PWA (Progressive Web App) Implementation Guide](#-pwa-progressive-web-app-implementation-guide)
-6. [🛠️ How to Remove the "Generated from..." Badge on GitHub](#-how-to-remove-the-generated-from-badge-on-github)
-7. [💻 Technologies & Google Stack Utilized](#-technologies--google-stack-utilized)
-8. [🚀 Getting Started & Configuration](#-getting-started--configuration)
+1. [Solution Overview](#-solution-overview)
+2. [Key Features](#-key-features)
+3. [🤖 AI Assistant & Help Generator](#-ai-assistant--help-generator)
+4. [📱 PWA (Progressive Web App) Implementation Guide](#-pwa-progressive-web-app-implementation-guide)
+5. [🛠️ How to Remove the "Generated from..." Badge on GitHub](#-how-to-remove-the-generated-from-badge-on-github)
+6. [💻 Technologies & Google Stack Utilized](#-technologies--google-stack-utilized)
+7. [🚀 Getting Started & Configuration](#-getting-started--configuration)
 
 ---
 
