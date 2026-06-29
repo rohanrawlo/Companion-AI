@@ -80,6 +80,8 @@ The AI offers real-time, context-aware guidance based on the selected task, help
 ### Tips to Use Companion More Effectively as a PWA:
 * **Add to Home Screen**: Open the App URL in your mobile browser (Safari/Chrome) and tap "Add to Home Screen" or click the install icon in your desktop address bar to use Companion as a standalone full-screen desktop/mobile app without browser chrome.
 * **Offline First Capability**: Companion relies on localized states and falls back to browser caches when offline. You can review, complete, and add tasks even without internet connectivity. Once connection is re-established, changes can be synced back to Firebase.
+* <img width="1918" height="963" alt="image" src="https://github.com/user-attachments/assets/8dc8b858-5b14-4800-b95f-2a83ce07e511" />
+
 
 ---
 
