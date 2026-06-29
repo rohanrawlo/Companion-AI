@@ -5,7 +5,7 @@ Companion is an intelligent, context-aware daily planner designed to act as your
 ---
 
 ## 📋 Table of Contents
-1. [Problem Statement Selected](#-problem-statement-selected)
+
 2. [Solution Overview](#-solution-overview)
 3. [Key Features](#-key-features)
 4. [🤖 AI Assistant & Help Generator](#-ai-assistant--help-generator)
@@ -16,14 +16,6 @@ Companion is an intelligent, context-aware daily planner designed to act as your
 
 ---
 
-## 🔍 Problem Statement Selected
-
-### **The Last-Minute Life Saver**
-Busy professionals, freelancers, and students struggle to dynamically organize their tasks without them overlapping with existing commitments or slipping into the past. 
-
-**The Challenge:** Traditional calendars and simple task lists do not understand the actual current time context when scheduling. They often place new tasks in already elapsed hours of the day (e.g., scheduling a task at 8:00 AM when the current time is already 12:26 PM).
-
----
 
 ## 💡 Solution Overview
 
@@ -33,6 +25,8 @@ Busy professionals, freelancers, and students struggle to dynamically organize t
 * Connects with Google Calendar to block out busy event hours.
 * Introduces **Flexible Custom Time Slots** where users can optional set manual times.
 * Features an **Overlap Resolution System** that alerts users when slots conflict, offering an option to replace and dynamically reschedule existing tasks, or cancel the input.
+**NOTE** : Companion is built as a Progressive Web App (PWA), allowing users to install it on any supported device—including Android phones, iPhones, tablets, laptops, and desktops. Once installed, it behaves like a native application with its own app icon, full-screen experience, and quick access, enabling users to use Companion anytime, anywhere without requiring installation from an app store.
+<img width="1918" height="870" alt="image" src="https://github.com/user-attachments/assets/d4d521d9-22b0-46d1-9327-857c48b4d6ba" />
 
 ---
 
@@ -71,99 +65,21 @@ Companion doesn't stop at planning your tasks—it actively supports you while y
 When it's time to begin a scheduled task, Companion displays a "Start Task" prompt. Once the user starts the task, a "Need Help?" button becomes available, providing instant access to the AI Assistant.
 
 The AI offers real-time, context-aware guidance based on the selected task, helping users overcome obstacles and stay productive.
+<img width="1918" height="847" alt="image" src="https://github.com/user-attachments/assets/ccc56c8f-676c-4a5f-a86a-75b0d6af50cf" />
+<img width="1918" height="876" alt="image" src="https://github.com/user-attachments/assets/c00129b9-3886-4242-a689-f1df91612a43" />
+
+
 
 ---
 
 ## 📱 PWA (Progressive Web App) Implementation Guide
 
-To use Companion more effectively as a desktop or mobile application, you can configure it as a **Progressive Web App (PWA)**. This enables offline access, installability, and lightning-fast load times.
-
-### 1. Step-by-Step PWA Configuration
-
-To add PWA support to this Vite + React project:
-
-1. **Install the Vite PWA Plugin**:
-   ```bash
-   npm install vite-plugin-pwa -D
-   ```
-
-2. **Configure `vite.config.ts`**:
-   Add the plugin to your Vite config to auto-generate the Service Worker and Web App Manifest:
-   ```typescript
-   import { defineConfig } from "vite";
-   import react from "@vitejs/plugin-react";
-   import { VitePWA } from "vite-plugin-pwa";
-
-   export default defineConfig({
-     plugins: [
-       react(),
-       VitePWA({
-         registerType: "autoUpdate",
-         includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
-         manifest: {
-           name: "Companion Daily Planner",
-           short_name: "Companion",
-           description: "Dynamic personal daily schedule assistant",
-           theme_color: "#4f46e5",
-           background_color: "#ffffff",
-           display: "standalone",
-           icons: [
-             {
-               src: "pwa-192x192.png",
-               sizes: "192x192",
-               type: "image/png"
-             },
-             {
-               src: "pwa-512x512.png",
-               sizes: "512x512",
-               type: "image/png"
-             }
-           ]
-         }
-       })
-     ]
-   });
-   ```
-
-3. **Register Service Worker in `src/main.tsx`**:
-   ```typescript
-   import { registerSW } from "virtual:pwa-register";
-
-   // Register service worker for offline usage and updates
-   if ("serviceWorker" in navigator) {
-     registerSW({ immediate: true });
-   }
-   ```
-
-### 2. Tips to Use Companion More Effectively as a PWA:
+### Tips to Use Companion More Effectively as a PWA:
 * **Add to Home Screen**: Open the App URL in your mobile browser (Safari/Chrome) and tap "Add to Home Screen" or click the install icon in your desktop address bar to use Companion as a standalone full-screen desktop/mobile app without browser chrome.
 * **Offline First Capability**: Companion relies on localized states and falls back to browser caches when offline. You can review, complete, and add tasks even without internet connectivity. Once connection is re-established, changes can be synced back to Firebase.
 
 ---
 
-## 🛠️ How to Remove the "Generated from..." Badge on GitHub
-
-When you create a repository on GitHub using a template, GitHub automatically places a subheader at the top: **"generated from google-gemini/aistudio-repository-template"**.
-
-If you want to make this repository completely independent and remove that attribution badge, follow these simple steps:
-
-### Option A: Create a Fresh Repository (Recommended)
-1. **Create a new, empty repository** on your GitHub account (do **not** use "Use this template" or initialize with README/LICENSE).
-2. Open your terminal in this project directory and run the following commands:
-   ```bash
-   # Rename the current remote to old-origin (just in case)
-   git remote rename origin old-origin
-
-   # Associate your new, fresh repository as the main origin
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_NEW_REPO_NAME.git
-
-   # Push your current branch to the new repository
-   git branch -M main
-   git push -u origin main
-   ```
-3. Once pushed, the new repository will be completely clean with **no template attribution badge**!
-
----
 
 ## 💻 Technologies & Google Stack Utilized
 
