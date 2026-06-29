@@ -2,6 +2,8 @@
 
 Companion is an intelligent, context-aware daily planner designed to act as your dynamic personal scheduling assistant. It understands your actual local time, respects external Google Calendar events, and dynamically places your tasks only in upcoming available hours. It also supports manual specific time slots with an interactive overlap warning and dynamic rescheduling options.
 
+**Try Now Companion-AI** : https://companion-1029746297245.asia-southeast1.run.app
+
 ---
 
 ## 📋 Table of Contents
