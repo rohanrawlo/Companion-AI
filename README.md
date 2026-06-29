@@ -25,6 +25,7 @@ Companion is an intelligent, context-aware daily planner designed to act as your
 * Connects with Google Calendar to block out busy event hours.
 * Introduces **Flexible Custom Time Slots** where users can optional set manual times.
 * Features an **Overlap Resolution System** that alerts users when slots conflict, offering an option to replace and dynamically reschedule existing tasks, or cancel the input.
+
 **NOTE** : Companion is built as a Progressive Web App (PWA), allowing users to install it on any supported device—including Android phones, iPhones, tablets, laptops, and desktops. Once installed, it behaves like a native application with its own app icon, full-screen experience, and quick access, enabling users to use Companion anytime, anywhere without requiring installation from an app store.
 <img width="1918" height="870" alt="image" src="https://github.com/user-attachments/assets/d4d521d9-22b0-46d1-9327-857c48b4d6ba" />
 
