@@ -69,7 +69,7 @@ When it's time to begin a scheduled task, Companion displays a "Start Task" prom
 
 The AI offers real-time, context-aware guidance based on the selected task, helping users overcome obstacles and stay productive.
 
-**App View**
+###App View
 
 <img width="1918" height="847" alt="image" src="https://github.com/user-attachments/assets/ccc56c8f-676c-4a5f-a86a-75b0d6af50cf" />
 <img width="1918" height="876" alt="image" src="https://github.com/user-attachments/assets/c00129b9-3886-4242-a689-f1df91612a43" />
